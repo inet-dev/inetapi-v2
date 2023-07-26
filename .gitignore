@@ -1,0 +1,11 @@
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.log
+__pycache__/
+inetapi.egg-info/
+.venv/
+.tmp/
+.pytest_cache/
+tests/
