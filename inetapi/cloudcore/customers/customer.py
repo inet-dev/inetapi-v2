@@ -34,7 +34,7 @@ def Customer(session, filter=None):
     data = data.drop(columns=['Customer Account'])
     data.set_index('Customer ID')
     # print('\n',data)
-    json_string = data.to_json(orient='records')
+    json_string = data.to_dict(orient='records')
 
 
     return json_string

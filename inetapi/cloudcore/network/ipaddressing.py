@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import re
 from inetapi.cloudcore.conf import BASE_URL
-from inetapi.utils.clean import clean_dict
+
 
 def clean_dict(dict):
     for k in dict:
